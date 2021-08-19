@@ -1,0 +1,179 @@
+<!doctype html>
+<html>
+
+<head>
+  <!-- ... -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link href="../tailwind.css" rel="stylesheet">
+  <title>
+    Invoice
+  </title>
+
+  <style>
+    .invoice{
+      font-family: 'Josefin Sans', sans-serif;
+    }
+    .logo{
+      font-family: 'Pacifico', cursive;font-family: 'Pacifico', cursive;
+    }
+  </style>
+</head>
+
+<body class="bg-pink-800 w-full p-2">
+  <section class="resume h-full w-full  ">
+    <div class="cv_head h-16 bg-gradient-to-r from-pink-400 via-red-500 to-pink-500 text-center flex items-center justify-end sm:justify-center text-lg relative">
+
+      <h1 class="invoice capitalize   text-3xl text-white font-medium mr-4 sm:mr-0 ">
+        invoice
+      </h1>
+      <div
+        class="logo absolute w-58 h-16  rounded-md -bottom-7 left-5 bg-gradient-to-r from-pink-400 via-red-500 to-pink-500 text-center text-3xl text-pink-200 font-bold">
+        <div class=" logo relative p-3 w-full h-full  ">
+          bobbyDev <small class="text-sm text-pink-500 font-medium">ltd.</small>
+          <span class="star absolute top-5 right-1 text-6xl capitalize font-bold text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-pink-800 to-pink-500">
+            *
+          </span>
+        </div>
+      </div>
+
+
+    </div>
+    <div class="wrapper bg-pink-200 w-full h-full p-3">
+      <div class="main border-2 border-pink-800 p-4 rounded-lg w-full h-full">
+
+
+        <!-- content begins -->
+        <div class="comapny_details   mt-4">
+          <h1 class="name text-4xl capitalize font-bold text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-pink-800 to-pink-200">
+            Company name
+          </h1>
+          <p class="date font-medium capitalize">
+            august 18, 2021
+          </p>
+        </div>
+
+
+        <!-- key deliveries -->
+        <fieldset class="job_details mt-16 p-4 border border-pink-800 rounded-lg">
+          <legend class="title text-4xl capitalize font-bold text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-pink-800 to-pink-200">
+            Key Deliveries
+          </legend>
+          <ol class="features list-decimal ml-6 space-y-3 font-medium capitalize">
+            <li class="one border-r ">somethong</li>
+            <li class="one border-r ">somethong</li>
+            <li class="one border-r ">somethong</li>
+          </ol>
+        </fieldset>
+
+
+        <!-- specifications -->
+        <div class="spec mt-5">
+          <hi class="spec_title  text-4xl capitalize font-bold text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-pink-800 to-pink-200">
+            Specifiations
+          </hi>
+          <p class="details mt-3 text-md">
+            <b>
+              75% upfront payment is required.
+            </b>
+            <br>
+            During the design process you will be entitled to unlimited revisions of the
+            designs until the desired outcome is reached
+          </p>
+        </div>
+
+
+        <!-- budget -->
+        <div class="bud  mt-6 space-y-3">
+          <hi class="bud_title text-4xl capitalize font-bold text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-pink-800 to-pink-200">
+            budget
+          </hi>
+          <div class="table flex-col w-full mt-3">
+            <div class="table_head p-2 bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500 text-xl font-bold flex border-2 border-pink-800 rounded-lg w-full" >
+              <div class="sn w-12">SN</div>
+              <div class="flex justify-between ml-4 w-full">
+                <div class="item capitalize">description</div>
+              <div class="price">Price(#)</div>
+              </div>
+            </div>
+
+            <!-- item 1 -->
+            <div class="table_row p-2  text-md font-medium flex  w-full" >
+              <div class="sn w-12">01</div>
+              <div class="flex justify-between ml-4 w-full">
+                <div class="item capitalize">description</div>
+              <div class="price">Price(#)</div>
+              </div>
+            </div>
+
+
+            <!-- item 2 -->
+
+            <div class="table_row p-2  text-md font-medium flex  w-full" >
+              <div class="sn w-12">02</div>
+              <div class="flex justify-between ml-4 w-full">
+                <div class="item capitalize">description</div>
+              <div class="price">Price(#)</div>
+              </div>
+            </div>
+
+               <!-- item 3 -->
+            <div class="table_row p-2  text-md font-medium flex  w-full" >
+              <div class="sn w-12">03</div>
+              <div class="flex justify-between ml-4 w-full">
+                <div class="item capitalize">description</div>
+              <div class="price">Price(#)</div>
+              </div>
+            </div>
+            <hr class="border-pink-800">
+
+            <div class="table_row p-2  text-xl font-medium flex justify-between  w-full" >
+              <span></span>
+              <div class="total table_head p-2 bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500 text-xl font-bold flex border-2 border-pink-800 rounded-lg">
+                #50,000
+              </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- payment -->
+        <div class="pay ml-6  mt-6">
+          <h1 class="pay_title text-4xl  capitalize font-bold text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-pink-800 to-pink-200">
+            payment method
+          </h1>
+          <p class="details mt-4 ml-6 text-lg font-bold">
+            Bank Name: Zenith Bank
+            <br>
+            Account Number: idris ife.
+            <br>
+            Account Number: 2283672893
+          </p>
+        </div>
+
+        <div class="footer-cont w-full text-center mt-8">
+          <p class="footer">
+           <i> thank ypu for choosing us &copy bobbyDev | 2021</i>
+          </p>
+        </div>
+
+
+      </div>
+    </div>
+
+  </section>
+  <!-- ... -->
+
+
+
+</body>
+
+</html>
